@@ -1,0 +1,80 @@
+.header
+{
+	background-image: url(image/head.png);
+	text-align: center;
+	width: 100%;
+	height: 150px;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	font-family: cursive;
+}
+
+.navbar
+{
+	background-color: #4d4d4d;
+	width: 97%;
+	height: 20px;
+	padding: 20px;
+	text-align: right;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-family: cursive;
+}
+
+a:visited 
+{
+	color: white;
+}
+
+a:hover
+{
+	color: black;
+}
+
+.row
+{
+	display: flex;
+}
+
+.side
+{
+	flex:30%;
+	background-color: #e6e6e6;
+	padding: 20px;
+	font-family: cursive;
+}
+
+.main
+{
+	flex:70%;
+	background-color: #ffffff;
+	padding: 20px;
+	font-family: cursive;
+}
+
+.title
+{
+	padding: 30px;
+	color: black;
+	font-weight: bold;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+  	background-color: none;
+  	font-family: cursive;
+}
+
+.footer
+{
+	background-color: #4d4d4d;
+	height: 100px;
+	width: 100%; 
+	text-align: center;
+	color: white;
+	font-family: cursive;
+}
+
